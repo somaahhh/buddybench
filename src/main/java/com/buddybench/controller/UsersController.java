@@ -39,7 +39,6 @@ public class UsersController {
                 : ResponseEntity.ok(userData);
     }
 
-    // get single record
 
     @GetMapping("/getUserByEmail")
     public ResponseEntity<?> getUsersById(@ModelAttribute Users users) {
